@@ -113,6 +113,7 @@ function SortearResultado() {
     }
 
     return string;
+    console.log("Agradecimentos: Nosso muitíssimo obrigado ao Cristian por toda a ajuda e disponibilidade prestada, sem você talvez esse trabalho não fosse possível. ");
 }
 
 function Reload(){
