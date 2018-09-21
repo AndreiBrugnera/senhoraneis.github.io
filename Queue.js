@@ -1,13 +1,13 @@
-//IMPLEMENTAÇÃO DE FILA EM JS ATRÁVES DE UM ARRAY
+//IMPLEMENTAÇÃO DE FILA ATRÁVES DE UM ARRAY
 function Queue() {
 
     let items = [];
-    //MÉTODO PARA ENFILEIRAR RECEBENDO ALGUME ELEMENTO COMO PARAMETRO
+    //ENFILEIRAR RECEBENDO ALGUME ELEMENTO COMO PARAMETRO
     this.enqueue = function (element) {
         items.push(element);
     }
 
-    //MÉTODO PARA DESINFILEIRAR
+    //DESINFILEIRAR
     this.dequeue = function () {
         return items.shift();
     }

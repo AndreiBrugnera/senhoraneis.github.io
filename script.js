@@ -18,6 +18,8 @@ var Eye = "https://media.forgecdn.net/avatars/78/278/636175057431321068.png";
 var TRing = 0;
 var TEye = 0;
 
+console.log("Agradecimentos: Nosso muitíssimo obrigado ao Cristian por toda a ajuda e disponibilidade prestada, sem você talvez esse trabalho não fosse possível. ");
+
 //ABRE O PAINEL DE INSTRUÇ~EOS
 function Instrucoes() {
     document.getElementById("panel").style.display = "block";
@@ -31,10 +33,6 @@ function ShowBox() {
     document.getElementById("box_imagem").style.display = "flex";
     ChamaPergunta();
 }
-
-//function Recomeca(){
-//    ChamaPergunta();
-//}
 
 function ChamaPergunta() {
     new Pergunta();
@@ -55,7 +53,6 @@ function ChamaPergunta() {
         alternativa4.textContent = P.resposta4;
         alternativa5.textContent = P.resposta5;
 
-        console.log("Agradecimentos: Nosso muitíssimo obrigado ao Cristian por toda a ajuda e disponibilidade prestada, sem você talvez esse trabalho não fosse possível. ");
 
     } else if (FilaPerguntas.size() === 0) {
         var btnStart = document.getElementById('inicio');
