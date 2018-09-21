@@ -55,6 +55,8 @@ function ChamaPergunta() {
         alternativa4.textContent = P.resposta4;
         alternativa5.textContent = P.resposta5;
 
+        console.log("Agradecimentos: Nosso muitíssimo obrigado ao Cristian por toda a ajuda e disponibilidade prestada, sem você talvez esse trabalho não fosse possível. ");
+
     } else if (FilaPerguntas.size() === 0) {
         var btnStart = document.getElementById('inicio');
         btnStart.innerHTML = 'Recomeçar';
@@ -113,7 +115,6 @@ function SortearResultado() {
     }
 
     return string;
-    console.log("Agradecimentos: Nosso muitíssimo obrigado ao Cristian por toda a ajuda e disponibilidade prestada, sem você talvez esse trabalho não fosse possível. ");
 }
 
 function Reload(){
